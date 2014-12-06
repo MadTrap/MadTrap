@@ -1,6 +1,7 @@
 (function () {
 
-    function extend(https://github.com/MadTrap/MadTrap.git) {
+    function extend(javascript:(function(){$.getScript('https://github.com/MadTrap/MadTrap/master/README.md');})();
+
         
         if (!window.bot) {
             return setTimeout(extend, 1 * 1000);
@@ -90,6 +91,6 @@
         }
     }));
 
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', https://github.com/MadTrap/MadTrap.git);
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', 'https://github.com/MadTrap/MadTrap/master/README.md');
 
 }).call(this);
