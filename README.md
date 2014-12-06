@@ -1,6 +1,6 @@
 (function () {
 
-    function extend(javascript:(function(){$.getScript('https://github.com/MadTrap/MadTrap/master/README.md');})();
+    function extend('https://github.com/MadTrap/MadTrap/master/README.md')
 
         
         if (!window.bot) {
@@ -37,7 +37,7 @@
             }
         };
 
-        bot.loadChat(https://rawgit.com/Yemasthui/basicBot/master/lang/en.json);
+        bot.loadChat('https://rawgit.com/Yemasthui/basicBot/master/lang/en.json');
 
     }
 
