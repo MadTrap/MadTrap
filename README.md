@@ -1,6 +1,6 @@
 (function () {
 
-    function extend() {
+    function extend(https://github.com/MadTrap/MadTrap.git) {
         
         if (!window.bot) {
             return setTimeout(extend, 1 * 1000);
@@ -10,15 +10,15 @@
 
         bot.retrieveSettings();
 
-         bot.commands.cakeCommand = {
-         command: 'cake',
-         rank: 'user',
-         type: 'exact',
-         functionality: function(chat, cmd){
-         if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-         if( !bot.commands.executable(this.rank, chat) ) return void (0);
-         else {
-             API.sendChat("/me Bacon!!!");
+        bot.commands.cakeCommand = {
+            command: 'cake',
+            rank: 'user',
+            type: 'exact',
+            functionality: function(chat, cmd){
+                if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if( !bot.commands.executable(this.rank, chat) ) return void (0);
+                else {
+                    API.sendChat("/me Bacon!!!");
                 }
             }
         };
@@ -41,7 +41,7 @@
     }
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "MadTrap Bot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
@@ -77,20 +77,19 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
-        themeLink: null,
+        rulesLink: http://tinyurl.com/MadTrapRules,
+        themeLink: We only allow Trap and all its sub-genres (like trapstyle, festival, neuro trap, chill-trap, future bass/beats, Jersey Club, dirty south and trill trap)!,
         fbLink: null,
-        youtubeLink: null,
+        youtubeLink: https;//youtube.com/AllDayMadTrap,
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
-        blacklists: {
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+        
         }
     }));
 
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', https://github.com/MadTrap/MadTrap.git);
 
 }).call(this);
