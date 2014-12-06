@@ -1,6 +1,6 @@
 (function () {
 
-    function extend('https://github.com/MadTrap/MadTrap/master/README.md')
+    function extend('https://github.com/MadTrap/MadTrap/blob/master/README.md')
 
         
         if (!window.bot) {
@@ -91,6 +91,6 @@
         }
     }));
 
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', 'https://github.com/MadTrap/MadTrap/master/README.md');
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', 'https://github.com/MadTrap/MadTrap/blob/master/README.md');
 
 }).call(this);
